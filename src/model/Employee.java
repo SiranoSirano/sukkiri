@@ -161,20 +161,36 @@ public class Employee implements Serializable {
 		this.address = address;
 	}
 
-	public void setEntry(String entry){this.entry= entry;}
+	public void setEntry(String entry) {
+		this.entry = entry;
+	}
 
-	public void setLeave(String leave){this.leave= leave;}
+	public void setLeave(String leave) {
+		this.leave = leave;
+	}
 
-	public void setReason(String reason){this.reason= reason;}
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 
-	public void setPhone(String phone){this.phone=phone ;}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
 
-	public void setMail(String mail){this.mail=mail ;}
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
 
-	public void setMynumber(int mynumber){this.mynumber=mynumber ;}
+	public void setMynumber(int mynumber) {
+		this.mynumber = mynumber;
+	}
 
-	public void setText(String text) {this.text= text;}
+	public void setText(String text) {
+		this.text = text;
+	}
 
-	public void setPass(String pass) {this.pass=pass ;}
+	public void setPass(String pass) {
+		this.pass = pass;
+	}
 
 }

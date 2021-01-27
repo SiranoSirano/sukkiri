@@ -8,7 +8,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 import model.AccountInfo;
-import model.Employee;
 
 public class EmployeeListDAO {
 
@@ -49,24 +48,25 @@ public class EmployeeListDAO {
 
 			while(rs.next()) {
 				AccountInfo accountinfo =new AccountInfo();
-				int id = rs.getInt("ID");
-				String userName = rs.getString("USERNAME");
-				String name = rs.getString("NAME");
-				String call = rs.getString("CALL");
-				String birth = rs.getString("BIRTH");
-				int age = rs.getInt("AGE");
-				String gender = rs.getString("GENDER");
-				String country = rs.getString("COUTRY");
-				int postal = rs.getInt("POSTAL");
-				String address = rs.getString("ADDRESS");
-				String entry = rs.getString("ENTRY");
-				String leave = rs.getString("LEAVE");
-				String reason = rs.getString("REASON");
-				String phone = rs.getString("PHONE");
-				String mail = rs.getString("MAIL");
-				int mynumber = rs.getInt("MYNUMBER");
-				String text = rs.getString("TEXT");
-				String pass = rs.getString("PASS");
+				accountinfo.setId(rs.getString("id"));
+				accountinfo.setUserName(rs.getString("USERNAME"));
+				accountinfo.setName(rs.getString("NAME"));
+				accountinfo.setCall(rs.getString("CALL"));
+				accountinfo.setBirth(rs.getString("BIRTH"));
+				accountinfo.setAge(rs.getInt("AGE"));
+				accountinfo.setGender(rs.getString("GENDER"));
+				accountinfo.setCountry(rs.getString("COUTRY"));
+				accountinfo.setPostal(rs.getInt("POSTAL"));
+				accountinfo.setAddress(rs.getString("ADDRESS"));
+				accountinfo.setentry(rs.getString("ENTRY"));
+				accountinfo.setleave(rs.getString("LEAVE"));
+				accountinfo.setreason(rs.getString("REASON"));
+				accountinfo.setphone(rs.getString("PHONE"));
+				accountinfo.setmail(rs.getString("MAIL"));
+				accountinfo.setmynumber(rs.getInt("MYNUMBER"));
+				accountinfo.settext(rs.getString("TEXT"));
+				accountinfo.setpass(rs.getString("PASS"));
+
 				list.add(accountinfo);
 			}
 
