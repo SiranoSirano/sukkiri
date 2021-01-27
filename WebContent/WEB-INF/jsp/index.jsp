@@ -19,10 +19,6 @@
 <input type="submit" value="ログイン">
 </form>
 
-<p></p>
-<form action ="/スッキリ/RegisterUser?action=null" method ="get">
-<input type="submit" value="新規ユーザー登録">
-</form>
 
 </div>
 </body>

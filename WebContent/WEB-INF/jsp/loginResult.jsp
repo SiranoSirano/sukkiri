@@ -18,7 +18,7 @@
 	<p>ログインに成功しました</p>
 	<p>ようこそ<c:out value="${userName}"/>さん</p>
 	<a href ="スッキリ/Main">社員情報管理画面へ</a>
-	<a href="/スッキリ/IndexServlet">TOP・ログイン画面へ戻る</a>
+	<a href="/スッキリ/Logout">TOP・ログイン画面へ戻る</a>
 
 </body>
 </html>
