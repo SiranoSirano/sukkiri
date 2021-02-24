@@ -1,5 +1,5 @@
 <%@page contentType="text/html; charset=UTF-8"%>
-<%@page import="java.util.ArrayList,model.Employee"%>
+<%@page import="java.util.ArrayList,modeltest.Employee"%>
 
 <%
 	ArrayList<Employee> list = (ArrayList<Employee>) request.getAttribute("list");
